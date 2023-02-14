@@ -5,26 +5,25 @@ Utilisation des fonctionnalités natives de "full site editing" (FSE) offertes p
 ## Projet et maquette
 
 
-Maquette Figma à réaliser avec les blocks WordPress :  
+**Maquette Figma à réaliser avec les blocks WordPress :**  
 https://www.figma.com/file/XP5Kla9gqSkYf7XEK8py2l/BSA-Web-%2F-Telescope?node-id=0%3A1&t=7vfVYIx3k1z4VHRF-0
 
+![Maquette](https://github.com/molokoloco/wordpress-fse/blob/main/medias/maquette.png?raw=true)
 
-Démo (en ligne un certain temps) de la page demandée :  
+**Démo de la page demandée (en ligne un certain temps) :**  
 https://wordpress.julienweb.fr 
 
-Admin Gutenberg en FSE :  
-https://wordpress.julienweb.fr/wp-admin/site-editor.php 
+![Page](https://github.com/molokoloco/wordpress-fse/blob/main/medias/screenshot-page.png?raw=true)
 
-Screen admin :  
-http://wordpress.julienweb.fr/wp-content/uploads/2023/02/scrnli_14_02_2023-13-02-55.png
+**Admin Gutenberg en FSE :**  
+https://wordpress.julienweb.fr/wp-admin/site-editor.php
 
-Screen page :  
-http://wordpress.julienweb.fr/wp-content/uploads/2023/02/scrnli_14_02_2023-14-21-01.png
+![Admin](https://github.com/molokoloco/wordpress-fse/blob/main/medias/screenshot-editor.png?raw=true)
 
-L’ensemble du site démo est téléchargeable et installable sous forme d’archive “.wpress” :
+**L’ensemble du site démo est téléchargeable et installable** sous forme d’archive “.wpress” :
 
 + https://fr.wordpress.org/plugins/all-in-one-wp-migration/ (Plugin a installer)
-+ https://julienweb.fr/bonus/wordpress.julienweb.fr-20230214-134439-v5s7oi.wpress (Archive 50Mo)
++ https://github.com/molokoloco/wordpress-fse/raw/main/medias/wordpress.julienweb.fr-20230214-134439-v5s7oi.wpress (Archive 50Mo)
 + Login WordPress : admin5730, password : admin5730
 
 J'ai utilisé les fonctionnalités natives de "full site editing" (FSE) offertes par WordPress.
@@ -43,7 +42,7 @@ Il me faut plus de temps pour plusieurs points.
 
 Maintenant, pour finaliser, il faut savoir si je pars sur un thème enfant, je peux décliner à partir du thème natif “Twenty Twenty-Three” ou utiliser “Elementor” ou “Stackable” (Débat FSE VS Constructeur de page)
 
-Code custom da la page (à coller dans la home de Gutenberg)  :
+**Code custom da la page (à coller dans la home de Gutenberg) :**
 ```html
 <!-- wp:template-part {"slug":"header","theme":"twentytwentythree","tagName":"header"} /-->
 
@@ -212,7 +211,7 @@ Code custom da la page (à coller dans la home de Gutenberg)  :
 <!-- /wp:group -->
 ```
 
-Code de l’entête de nav-bar (FSE) :
+**Code de l’entête de nav-bar (FSE) :**
 
 ```html
 <!-- wp:group {"layout":{"type":"constrained","wideSize":"100%","contentSize":"80%"}} -->
@@ -236,7 +235,7 @@ Code de l’entête de nav-bar (FSE) :
 <!-- /wp:group -->
 ```
 
-Custom CSS :
+**Custom CSS :**
 https://fr.wordpress.org/plugins/custom-css-js/ 
 
 ```css
@@ -289,7 +288,7 @@ h4, h4 a {
 }
 ```
 
-Liste de ressources dont je me sers pour développer :
+**Liste de ressources dont je me sers pour développer :**
 
  + CORE1 https://github.com/WordPress/gutenberg
  + CORE2 https://github.com/WordPress/gutenberg/tree/HEAD/packages/block-library/src
